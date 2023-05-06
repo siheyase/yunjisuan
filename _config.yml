@@ -59,8 +59,8 @@ plugins:
 
 author:
   name   : "许琪"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  avatar : "/assets/images/touxiang.png"
+  bio    : "Something needs to be recorded."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
