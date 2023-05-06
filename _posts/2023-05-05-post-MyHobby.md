@@ -10,13 +10,13 @@ tags:
 ## 介绍一下我看的live
 ### 痛仰 in 舟山
 这是我的一场在自己家乡看的live，开火车很疯狂但是很爽。  
-图片1  
-图片2  
+![痛仰1]({{ '/assets/images/live1_1.jpg' | prepend :site.baseurl }})     
+![痛仰2]({{ '/assets/images/live1_2.jpg' | prepend :site.baseurl }})   
 
 ### 火星演唱会 in 杭州
 这是我看到我最喜欢的歌手的演唱会的第一场，极致的快乐！  
 ![我的演唱会记录1]({{ '/assets/images/live2_2.jpg' | prepend :site.baseurl }})      
-![我的演唱会记录2]({{ site.url }}/assets/images/live2_3.jpg)  
+![我的演唱会记录2]({{ '/assets/images/live2_3.jpg' | prepend :site.baseurl }}) 
 
 ## 我的live清单 
 1. 火星演唱会 武汉场
