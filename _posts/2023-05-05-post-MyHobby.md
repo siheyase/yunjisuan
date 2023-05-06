@@ -15,7 +15,7 @@ tags:
 
 ### 火星演唱会 in 杭州
 这是我看到我最喜欢的歌手的演唱会的第一场，极致的快乐！  
-![我的演唱会记录1]({{ site.url }}/assets/images/live2_2.jpg)      
+![我的演唱会记录1]({{ '/assets/images/live2_2.jpg' | prepend :site.baseurl }})      
 ![我的演唱会记录2]({{ site.url }}/assets/images/live2_3.jpg)  
 
 ## 我的live清单 
