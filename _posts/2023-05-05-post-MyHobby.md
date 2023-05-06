@@ -1,5 +1,5 @@
 ---
-title: "Post: My hobby"
+title: "Live记录"
 categories:
   - Blog
 tags:
@@ -22,6 +22,6 @@ tags:
 ![我的演唱会记录2]({{ '/assets/images/live2_3.jpg' | prepend :site.baseurl }}) 
 
 ## 我的live清单 
-1. 火星演唱会 武汉场
+1. 火星演唱会巡演 武汉场
 2. 声音碎片巡演 上海场
 3. ...
