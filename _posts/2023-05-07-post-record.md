@@ -58,7 +58,7 @@ tags:
 </iframe>
 </div>
 ```
-成功的效果如post_vedio所示  
+成功的效果如[post_vedio][p1]所示  
 
 第二种，因为每次都插入这段代码很麻烦。Jekyll可以使用include标签来引入位于_includes文件夹里面的html片段，并且可以在include标签传入变量，在html模板中进行处理生成html片段。  
 创建_include目录  
@@ -67,4 +67,5 @@ tags:
 
 效果如[post-vedio2][p2]所示  
 
+[p1]:https://siheyase.github.io/yunjisuan/blog/post-vedio
 [p2]:https://siheyase.github.io/yunjisuan/blog/post-vedio2
