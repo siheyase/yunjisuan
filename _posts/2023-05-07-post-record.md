@@ -27,7 +27,7 @@ tags:
 **解决**：搜索发现，是因为Jekyll 会按照 liquid 语法进行解析md文件，所以预览能看到网站上看不到。  
 正确的添加图片的语法是：  
 
-```html
+```markdown
 ![]({{ ‘path’ | prepend :site.baseurl}})
 ```
 
@@ -63,10 +63,10 @@ tags:
 第二种，因为每次都插入这段代码很麻烦。Jekyll可以使用include标签来引入位于_includes文件夹里面的html片段，并且可以在include标签传入变量，在html模板中进行处理生成html片段。  
 创建_include目录  
 在其中添加iframe.html文件  
-在md文件中可以使用  
+在md文件中可以使用的格式插入视频    
 
-<p>"{% include iframe.html src="vedioPath" %}"</p>
+{% include iframe.html src="_posts/2023-05-06-post-vedio" %}
 
-的格式插入视频  
+
 
 效果如post-vedio2所示  
