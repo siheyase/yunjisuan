@@ -6,7 +6,7 @@ tags:
   - Homework
 ---
 
-<p> VR </p>
+<h2> VR </h2>
 
 <div class="video-container" style="
     position: relative;
@@ -29,9 +29,10 @@ tags:
     height:100%;
 ">
 </iframe>
-</div>
+</div>  
 
-<p> 河西走廊 </p>
+<p></p>
+<h2> 河西走廊 </h2>
 
 <div class="video-container" style="
     position: relative;
