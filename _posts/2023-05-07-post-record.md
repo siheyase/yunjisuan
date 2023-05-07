@@ -63,10 +63,8 @@ tags:
 第二种，因为每次都插入这段代码很麻烦。Jekyll可以使用include标签来引入位于_includes文件夹里面的html片段，并且可以在include标签传入变量，在html模板中进行处理生成html片段。  
 创建_include目录  
 在其中添加iframe.html文件  
-在md文件中可以使用的格式插入视频    
+在md文件中可以使用liquid对应的的格式插入视频    
 
-{% include iframe.html src="_posts/2023-05-06-post-vedio" %}
+效果如[post-vedio2][p2]所示  
 
-
-
-效果如post-vedio2所示  
+[p2]:https://siheyase.github.io/yunjisuan/blog/post-vedio2
