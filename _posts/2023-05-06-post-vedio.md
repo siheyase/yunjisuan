@@ -6,6 +6,8 @@ tags:
   - Homework
 ---
 
+<p> VR </p>
+
 <div class="video-container" style="
     position: relative;
     padding-bottom:56.25%;
@@ -27,7 +29,17 @@ tags:
     height:100%;
 ">
 </iframe>
-  
+</div>
+
+<p> 河西走廊 </p>
+
+<div class="video-container" style="
+    position: relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+">
 <iframe
   src="https://www.youtube.com/embed/2zC2K6zi4ig" 
   width="560"
@@ -42,5 +54,4 @@ tags:
     height:100%;
 ">
 </iframe>
-  
 </div>
