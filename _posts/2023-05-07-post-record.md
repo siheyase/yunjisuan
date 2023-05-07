@@ -64,6 +64,9 @@ tags:
 创建_include目录  
 在其中添加iframe.html文件  
 在md文件中可以使用  
-```{% include iframe.html src=”url” %} ``` 的格式插入视频  
+```html
+{% include iframe.html src=”url” %} 
+``` 
+的格式插入视频  
 
 效果如post-vedio2所示  
