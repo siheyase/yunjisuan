@@ -114,4 +114,4 @@ tag_archive:
   type: liquid
   path: /tags/
 
-logo: "/assets/images/mars-7.svg"
+logo: "/assets/images/logo.svg"
