@@ -31,7 +31,7 @@ tags:
 正确的添加图片的语法是：  
 
 ```markdown
-![]({{ ‘path’ | prepend :site.baseurl}})
+<p>![]({{ ‘path’ | prepend :site.baseurl}})</p>
 ```
 
 ### 在md转化的post中插入可以在线播放视频  
@@ -67,6 +67,9 @@ tags:
 创建_include目录  
 在其中添加iframe.html文件  
 在md文件中可以使用liquid对应的的格式插入视频    
+<p>{% include iframe.html src="url" %}</p>  
+这一行一开始在Build Jekyll中报错（查看actions）。
+我发现我在md文件中直接写这行，无论我用什么符号修饰，依旧会被识别，说明jekyll对于md的所有内容都会进行liquid语法的解析。因此我只能改为插入图片。。。
 
 效果如[post-vedio2][p2]所示  
 
