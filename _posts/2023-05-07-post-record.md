@@ -24,15 +24,16 @@ tags:
 
 >过程记录  
 
+每次部署成功的actions页面应该是如下图所示：  
+![]({{ "assets/images/success.png" | prepend :site.baseurl}})
+
 ### 显示图片  
 **问题**：md文件中的图片无法在网站上显示。  
 正常的md文件，显示图片的路径是`![](path)`，但是这样我在查看github上的markdown文件时可以看到图片，但是打开静态网站，怎么也加载不出来图片。  
 **解决**：搜索发现，是因为Jekyll 会按照 liquid 语法进行解析md文件，所以预览能看到网站上看不到。  
 正确的添加图片的语法是：  
 
-```markdown
-<p>![]({{ ‘path’ | prepend :site.baseurl}})</p>
-```
+![]({{ "assets/images/1.png" | prepend :site.baseurl}})
 
 ### 在md转化的post中插入可以在线播放视频  
 第一种 使用样式代码插入iframe  
@@ -67,7 +68,8 @@ tags:
 创建_include目录  
 在其中添加iframe.html文件  
 在md文件中可以使用liquid对应的的格式插入视频    
-<p>{% include iframe.html src="url" %}</p>  
+<!-- {% include iframe.html src="url" %}   -->
+![]({{ "assets/images/2.png" | prepend :site.baseurl}})
 这一行一开始在Build Jekyll中报错（查看actions）。
 我发现我在md文件中直接写这行，无论我用什么符号修饰，依旧会被识别，说明jekyll对于md的所有内容都会进行liquid语法的解析。因此我只能改为插入图片。。。
 
