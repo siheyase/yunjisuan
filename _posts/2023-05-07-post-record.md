@@ -77,7 +77,7 @@ tags:
 
 效果如[post-vedio2][p2]所示  
 
->更改_config.yml文件修改配置  
+### 更改_config.yml文件修改配置  
 
 **更新网站徽标:**logo: "/assets/images/88x88.png"
 {: .notice--info}
