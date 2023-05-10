@@ -70,10 +70,20 @@ tags:
 在md文件中可以使用liquid对应的的格式插入视频    
 
 ![]({{ "/assets/images/2.png" | prepend :site.baseurl}})
-这一行一开始在Build Jekyll中报错（查看actions）。
+这一行一开始在Build Jekyll中报错（查看actions）。  
+![]({{ "/assets/images/3.png" | prepend :site.baseurl}})  
+![]({{ "/assets/images/4.png" | prepend :site.baseurl}})
 我发现我在md文件中直接写这行，无论我用什么符号修饰，依旧会被识别，说明jekyll对于md的所有内容都会进行liquid语法的解析。因此我只能改为插入图片。。。
 
 效果如[post-vedio2][p2]所示  
+
+>更改_config.yml文件修改配置  
+
+**更新网站徽标:**logo: "/assets/images/88x88.png"
+{: .notice--info}
+
+**更新皮肤主题:**minimal_mistakes_skin: "sunrise" # default
+{: .notice--info}
 
 [p1]:https://siheyase.github.io/yunjisuan/blog/post-vedio
 [p2]:https://siheyase.github.io/yunjisuan/blog/post-vedio2
